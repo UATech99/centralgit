@@ -2,9 +2,6 @@ trigger:
   branches:
     include:
       - practice.txt
-  paths:
-    include: 
-      - /first-pipeline.yml
 pool:
   vmImage: ubuntu-latest
 
